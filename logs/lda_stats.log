@@ -1,0 +1,8 @@
+2015-03-26 17:29:08,635 : INFO : loaded corpus index from data/corpus_data.mm.index
+2015-03-26 17:29:08,636 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:29:08,636 : INFO : accepted corpus with 11 documents, 559 features, 666 non-zero entries
+2015-03-26 17:29:08,637 : INFO : loading Dictionary object from data/dictionary.data
+2015-03-26 17:29:08,640 : INFO : loading LdaModel object from data/model.lda
+2015-03-26 17:29:08,644 : INFO : setting ignored attribute state to None
+2015-03-26 17:29:08,645 : INFO : setting ignored attribute dispatcher to None
+2015-03-26 17:29:08,645 : INFO : loading LdaModel object from data/model.lda.state

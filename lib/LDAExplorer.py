@@ -18,9 +18,8 @@ class LDAExplorer:
     document_db     =   'data/docs.db'
     dictionary_data =   'data/dictionary.data'
     model_file      =   'data/model.lda'
-    logfile         =   'logs/lda_stats.log' 
     logging         =   {
-        'filename': 'lda_stats.log',
+        'filename': 'logs/lda_stats.log',
         'format':   '%(asctime)s : %(levelname)s : %(message)s',
         'level':    logging.INFO
     }
