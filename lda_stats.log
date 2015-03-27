@@ -1,0 +1,73 @@
+2015-03-26 17:19:19,963 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:19:19,963 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:19:19,963 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:19:33,677 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:19:33,677 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:19:33,678 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:19:47,809 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:19:47,809 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:19:47,809 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:20:13,453 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:20:13,453 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:20:13,453 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:23:34,492 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:23:34,493 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:23:34,493 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:24:02,234 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:24:02,235 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:24:02,235 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:24:20,427 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:24:20,428 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:24:20,428 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:24:29,315 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:24:29,315 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:24:29,316 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:25:03,797 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:25:03,797 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2015-03-26 17:25:03,797 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:25:23,299 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:25:43,801 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:25:43,892 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2015-03-26 17:25:43,909 : INFO : built Dictionary(559 unique tokens: [u'limited', u'managed', u'corps', u'caused', u'rod']...) from 11 documents (total 2778 corpus positions)
+2015-03-26 17:25:43,910 : INFO : saving Dictionary object under data/dictionary.data, separately None
+2015-03-26 17:25:43,927 : INFO : storing corpus in Matrix Market format to data/corpus_data.mm
+2015-03-26 17:25:43,927 : INFO : saving sparse matrix to data/corpus_data.mm
+2015-03-26 17:25:43,927 : INFO : PROGRESS: saving document #0
+2015-03-26 17:25:43,936 : INFO : saved 11x559 matrix, density=10.831% (666/6149)
+2015-03-26 17:25:43,936 : INFO : saving MmCorpus index to data/corpus_data.mm.index
+2015-03-26 17:25:43,937 : INFO : loading LdaModel object from data/model.lda
+2015-03-26 17:25:43,937 : INFO : using autotuned alpha, starting with [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+2015-03-26 17:25:43,938 : INFO : using serial LDA version on this node
+2015-03-26 17:25:43,955 : INFO : running online LDA training, 100 topics, 1 passes over the supplied corpus of 11 documents, updating model once every 11 documents, evaluating perplexity every 11 documents, iterating 50x with a convergence threshold of 0.001000
+2015-03-26 17:25:43,955 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2015-03-26 17:25:44,072 : INFO : -69.145 per-word bound, 652727395240841576448.0 perplexity estimate based on a held-out corpus of 11 documents with 2778 words
+2015-03-26 17:25:44,073 : INFO : PROGRESS: pass 0, at document #11/11
+2015-03-26 17:25:44,120 : INFO : optimized alpha [0.010467530334146909, 0.011433644507791611, 0.011366033121621049, 0.010500668390388664, 0.010496491207426671, 0.012360196435116239, 0.011409328181150749, 0.010492936304553968, 0.010488851014082319, 0.01145873757337593, 0.010490884357359552, 0.010486220012733907, 0.010490417378099528, 0.010447409093581115, 0.0095478940067420231, 0.010486777126682936, 0.0095478940067420231, 0.011447936457811728, 0.011384276399267496, 0.012373643018165827, 0.010490473973962256, 0.01048719901907268, 0.011426363876103128, 0.010474468794045351, 0.010496754585416579, 0.010472871258642732, 0.01047422242685324, 0.010486371091127733, 0.010482280341001432, 0.010498598982160202, 0.010500446122542464, 0.011427082250979399, 0.011442069747515918, 0.010493950834047756, 0.0095478940067420231, 0.011428893760745951, 0.010466462270170392, 0.010490187077727687, 0.010472557283804886, 0.010490207845062315, 0.011448025586195325, 0.010497675686320727, 0.01047955960177634, 0.010468507672337143, 0.010489234719375965, 0.011409839233386357, 0.010481126988439556, 0.010477762251945192, 0.010494447805355273, 0.010485433713364118, 0.0095478940067420231, 0.0096224754536435829, 0.010492891042133631, 0.010485753735563515, 0.0095478940067420231, 0.010497183008011224, 0.01049541740615678, 0.01044486358256063, 0.011417729409615112, 0.010478938110295159, 0.010485120163220523, 0.010497152633314829, 0.010481515126370924, 0.010466391887034028, 0.011397167726366212, 0.010483584370226996, 0.010407078258899022, 0.010496478170069603, 0.010489331437124265, 0.010479593336926408, 0.012396614870184664, 0.010488470261970228, 0.011408902645457346, 0.010495193766014045, 0.010485395496891972, 0.011427450260541906, 0.010462378444431614, 0.010475497815269217, 0.010478428034337356, 0.010946036391516418, 0.01048868115583452, 0.0095478940067420231, 0.01045938245383695, 0.0095478940067420231, 0.011410775436159603, 0.010490095019939541, 0.012361932341380732, 0.010483118267975112, 0.010476442939303188, 0.0095478940067420231, 0.01047687597701644, 0.010492031893811199, 0.010235502229743849, 0.010460520700111534, 0.010503441451313026, 0.010475779234310447, 0.010477237670216948, 0.011437279498425842, 0.011437614818503096, 0.011400294110779119]
+2015-03-26 17:25:44,137 : INFO : topic #50 (0.010): 0.002*walling + 0.002*film + 0.002*friends + 0.002*friend + 0.002*freedom + 0.002*forest + 0.002*forcing + 0.002*films + 0.002*fight + 0.002*eren
+2015-03-26 17:25:44,137 : INFO : topic #14 (0.010): 0.002*walling + 0.002*film + 0.002*friends + 0.002*friend + 0.002*freedom + 0.002*forest + 0.002*forcing + 0.002*films + 0.002*fight + 0.002*eren
+2015-03-26 17:25:44,138 : INFO : topic #54 (0.010): 0.002*walling + 0.002*film + 0.002*friends + 0.002*friend + 0.002*freedom + 0.002*forest + 0.002*forcing + 0.002*films + 0.002*fight + 0.002*eren
+2015-03-26 17:25:44,138 : INFO : topic #89 (0.010): 0.002*walling + 0.002*film + 0.002*friends + 0.002*friend + 0.002*freedom + 0.002*forest + 0.002*forcing + 0.002*films + 0.002*fight + 0.002*eren
+2015-03-26 17:25:44,138 : INFO : topic #81 (0.010): 0.002*walling + 0.002*film + 0.002*friends + 0.002*friend + 0.002*freedom + 0.002*forest + 0.002*forcing + 0.002*films + 0.002*fight + 0.002*eren
+2015-03-26 17:25:44,139 : INFO : topic #83 (0.010): 0.002*walling + 0.002*film + 0.002*friends + 0.002*friend + 0.002*freedom + 0.002*forest + 0.002*forcing + 0.002*films + 0.002*fight + 0.002*eren
+2015-03-26 17:25:44,139 : INFO : topic #16 (0.010): 0.002*walling + 0.002*film + 0.002*friends + 0.002*friend + 0.002*freedom + 0.002*forest + 0.002*forcing + 0.002*films + 0.002*fight + 0.002*eren
+2015-03-26 17:25:44,139 : INFO : topic #32 (0.011): 0.040*december + 0.035*giant + 0.034*prefecture + 0.031*titans + 0.031*2014 + 0.030*wall + 0.024*humans + 0.023*tetsuya + 0.023*nakashima + 0.023*announcement
+2015-03-26 17:25:44,140 : INFO : topic #31 (0.011): 0.083*titan + 0.076*titans + 0.072*city + 0.049*manga + 0.039*2011 + 0.036*eren + 0.034*walls + 0.014*attack + 0.012*series + 0.009*volumes
+2015-03-26 17:25:44,140 : INFO : topic #9 (0.011): 0.070*titan + 0.038*eren + 0.019*historia + 0.019*levi + 0.015*hange + 0.014*reiss + 0.014*attack + 0.013*original + 0.013*rod + 0.012*claims
+2015-03-26 17:25:44,140 : INFO : topic #97 (0.011): 0.068*titan + 0.036*eren + 0.023*levi + 0.017*reiss + 0.015*rod + 0.015*historia + 0.015*wall + 0.013*erwin + 0.012*armin + 0.012*hange
+2015-03-26 17:25:44,140 : INFO : topic #5 (0.012): 0.079*titan + 0.052*eren + 0.026*titans + 0.022*city + 0.021*walls + 0.018*manga + 0.017*levi + 0.013*reiss + 0.013*rod + 0.012*attack
+2015-03-26 17:25:44,141 : INFO : topic #86 (0.012): 0.048*titan + 0.044*titans + 0.033*city + 0.025*series + 0.025*walls + 0.020*manga + 0.020*anime + 0.018*attack + 0.014*2014 + 0.012*kodansha
+2015-03-26 17:25:44,141 : INFO : topic #19 (0.012): 0.096*eren + 0.069*titan + 0.036*wall + 0.023*regiment + 0.022*levi + 0.020*reiss + 0.014*power + 0.013*rod + 0.013*hange + 0.013*historia
+2015-03-26 17:25:44,141 : INFO : topic #70 (0.012): 0.070*titans + 0.059*titan + 0.039*walls + 0.036*city + 0.035*humanity + 0.035*eren + 0.027*written + 0.016*human + 0.016*world + 0.016*mankind
+2015-03-26 17:25:44,141 : INFO : topic diff=53.503139, rho=1.000000
+2015-03-26 17:25:44,142 : INFO : saving LdaState object under data/model.lda.state, separately None
+2015-03-26 17:25:44,144 : INFO : saving LdaModel object under data/model.lda, separately None
+2015-03-26 17:25:44,144 : INFO : not storing attribute state
+2015-03-26 17:25:44,144 : INFO : not storing attribute dispatcher
+2015-03-26 17:26:04,337 : INFO : loaded corpus index from data/corpus_data.mm.index
+2015-03-26 17:26:04,337 : INFO : initializing corpus reader from data/corpus_data.mm
+2015-03-26 17:26:04,337 : INFO : accepted corpus with 11 documents, 559 features, 666 non-zero entries
+2015-03-26 17:26:04,337 : INFO : loading Dictionary object from data/dictionary.data
+2015-03-26 17:26:04,340 : INFO : loading LdaModel object from data/model.lda
+2015-03-26 17:26:04,344 : INFO : setting ignored attribute state to None
+2015-03-26 17:26:04,345 : INFO : setting ignored attribute dispatcher to None
+2015-03-26 17:26:04,345 : INFO : loading LdaModel object from data/model.lda.state
